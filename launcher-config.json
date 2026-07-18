@@ -1,5 +1,5 @@
 {
-  "_comment": "Config remoto do launcher UnLockedGames. Editar aqui muda o app de TODOS os usuarios na proxima abertura, sem recompilar o .exe. Nao e fallback: o app le isto sempre.",
+  "_comment": "Config remoto do launcher UnLockedGames. Editar aqui muda o app de TODOS os usuarios na proxima abertura, sem recompilar. Lido SEMPRE, nao e fallback.",
   "_updated": "2026-07-18",
   "launcher_url": "https://app.jogoliberado.shop/launcher",
   "supabase_url": "https://ezaqzfxksfvxnbrjnysz.supabase.co",
@@ -8,8 +8,15 @@
   "repo_base": "https://github.com/Lurizin/unlockedgames-assets/releases/download/luas",
   "data_base": "https://app.jogoliberado.shop/data",
   "cloudredirect_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/legacy-launcher/CloudRedirectCLI.exe",
+  "cloudredirect_args": "/stfixer",
+  "rodar_cloudredirect": false,
+  "opensteamtool_dlls": ["dwmapi.dll", "xinput1_4.dll", "OpenSteamTool.dll"],
   "bypass_dl_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/bypass/{}.zip",
-  "online_dl_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/online/{}.zip",
   "bypass_list_url": "https://app.jogoliberado.shop/data/bypasses.json",
-  "online_list_url": "https://app.jogoliberado.shop/data/onlinefixes.json"
+  "bypass_release_api": "https://api.github.com/repos/Lurizin/unlockedgames-assets/releases/tags/bypass",
+  "online_dl_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/online/{}.zip",
+  "online_list_url": "https://app.jogoliberado.shop/data/onlinefixes.json",
+  "online_release_api": "https://api.github.com/repos/Lurizin/unlockedgames-assets/releases/tags/online",
+  "latest_build": 20260716,
+  "update_exe_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/launcher/UnLockedGames.exe"
 }

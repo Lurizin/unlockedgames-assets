@@ -10,7 +10,11 @@
   "cloudredirect_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/legacy-launcher/CloudRedirectCLI.exe",
   "cloudredirect_args": "/stfixer",
   "rodar_cloudredirect": false,
-  "opensteamtool_dlls": ["dwmapi.dll", "xinput1_4.dll", "OpenSteamTool.dll"],
+  "opensteamtool_dlls": [
+    "dwmapi.dll",
+    "xinput1_4.dll",
+    "OpenSteamTool.dll"
+  ],
   "bypass_dl_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/bypass/{}.zip",
   "bypass_list_url": "https://app.jogoliberado.shop/data/bypasses.json",
   "bypass_release_api": "https://api.github.com/repos/Lurizin/unlockedgames-assets/releases/tags/bypass",
@@ -18,5 +22,6 @@
   "online_list_url": "https://app.jogoliberado.shop/data/onlinefixes.json",
   "online_release_api": "https://api.github.com/repos/Lurizin/unlockedgames-assets/releases/tags/online",
   "latest_build": 20260716,
-  "update_exe_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/launcher/UnLockedGames.exe"
+  "update_exe_url": "https://github.com/Lurizin/unlockedgames-assets/releases/download/launcher/UnLockedGames.exe",
+  "smon_url": "https://raw.githubusercontent.com/Lurizin/steam-monitor"
 }
